@@ -4,4 +4,41 @@
     <string name="answer_required">Please choose one answer</string>
     <string name="ok">OK</string>
     <string name="bottom_navbar_text">av</string>
+    <string name="ShapeQuestion1">ShapeQuestion1</string>
+    <string name="ShapeQuestion2">ShapeQuestion2</string>
+    <string name="ColorQuestion1">ColorQuestion1</string>
+    <string name="ColorQuestion2">ColorQuestion2</string>
+    <string name="CountingQuestion1">CountingQuestion1</string>
+    <string name="CountingQuestion2">CountingQuestion2</string>
+    <string name="Result">Result</string>
+    <string-array name="ShapeQuestion1Answer1">
+        <item>ShapeQuestion1Answer1</item>
+        <item>ShapeQuestion1Answer2</item>
+        <item>ShapeQuestion1Answer3</item>
+    </string-array>
+    <string-array name="ShapeQuestion2Answer1">
+        <item>ShapeQuestion2Answer1</item>
+        <item>ShapeQuestion2Answer2</item>
+        <item>ShapeQuestion2Answer3</item>
+    </string-array>
+    <string-array name="ColorQuestion1Answer1">
+        <item>ColorQuestion1Answer1</item>
+        <item>ColorQuestion1Answer2</item>
+        <item>ColorQuestion1Answer2</item>
+    </string-array>
+    <string-array name="ColorQuestion2Answer1">
+        <item>ColorQuestion2Answer1</item>
+        <item>ColorQuestion2Answer2</item>
+        <item>ColorQuestion2Answer3</item>
+    </string-array>
+    <string-array name="CountingQuestion1Answer1">
+        <item>CountingQuestion1Answer1</item>
+        <item>CountingQuestion1Answer2</item>
+        <item>CountingQuestion1Answer3</item>
+    </string-array>
+    <string-array name="CountingQuestion2Answer1">
+        <item>CountingQuestion2Answer1</item>
+        <item>CountingQuestion2Answer2</item>
+        <item>CountingQuestion2Answer3</item>
+    </string-array>
 </resources>

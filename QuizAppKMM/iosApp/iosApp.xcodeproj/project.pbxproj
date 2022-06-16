@@ -17,8 +17,6 @@
 		0EB76F872846B8F60082A6B7 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EB76F852846B8F60082A6B7 /* HomeScreenViewController.xib */; };
 		0EB76F892846BA6C0082A6B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB76F882846BA6C0082A6B7 /* AppDelegate.swift */; };
 		0EB76F8B2846BDF20082A6B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB76F8A2846BDF20082A6B7 /* SceneDelegate.swift */; };
-		0EEC533C2857456E008F1DDA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EEC533B2857456E008F1DDA /* Info.plist */; };
-		4E3AB3956ECE2AE1D2B66CB5 /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5707466DBB071C72587368B8 /* Pods_iosApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E3AB3956ECE2AE1D2B66CB5 /* Pods_iosApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +170,6 @@
 			files = (
 				0EB76F872846B8F60082A6B7 /* HomeScreenViewController.xib in Resources */,
 				0EA739E0284D583E005ADAD8 /* Main.storyboard in Resources */,
-				0EEC533C2857456E008F1DDA /* Info.plist in Resources */,
 				0EA739DE284D5832005ADAD8 /* LaunchScreen.storyboard in Resources */,
 				058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */,
 				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,

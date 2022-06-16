@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="answer_required">Välja ett svar</string>
+    <string name="ok">OK</string>
+    <string name="bottom_navbar_text">av</string>
+    <string name="ShapeQuestion1">ShapeFråga1</string>
+    <string name="ShapeQuestion2">ShapeFråga2</string>
+    <string name="ColorQuestion1">FärgFråga1</string>
+    <string name="ColorQuestion2">FärgFråga2</string>
+    <string name="CountingQuestion1">RäkningFråga1</string>
+    <string name="CountingQuestion2">RäkningFråga2</string>
+    <string name="Result">Resultat</string>
+    <string-array name="ShapeQuestion1Answer1">
+        <item>ShapeFråga1Svar1</item>
+        <item>ShapeFråga1Svar2</item>
+        <item>ShapeFråga1Svar3</item>
+    </string-array>
+    <string-array name="ShapeQuestion2Answer1">
+        <item>ShapeFråga2Svar1</item>
+        <item>ShapeFråga2Svar2</item>
+        <item>ShapeFråga2Svar3</item>
+    </string-array>
+    <string-array name="ColorQuestion1Answer1">
+        <item>FärgFråga1Svar1</item>
+        <item>FärgFråga1Svar2</item>
+        <item>FärgFråga1Svar3</item>
+    </string-array>
+    <string-array name="ColorQuestion2Answer1">
+        <item>FärgFråga2Svar1</item>
+        <item>FärgFråga2Svar2</item>
+        <item>FärgFråga2Svar3</item>
+    </string-array>
+    <string-array name="CountingQuestion1Answer1">
+        <item>RäkningFråga1Svar1</item>
+        <item>RäkningFråga1Svar2</item>
+        <item>RäkningFråga1Svar3</item>
+    </string-array>
+    <string-array name="CountingQuestion2Answer1">
+        <item>RäkningFråga2Svar1</item>
+        <item>RäkningFråga2Svar2</item>
+        <item>RäkningFråga2Svar3</item>
+    </string-array>
+</resources>

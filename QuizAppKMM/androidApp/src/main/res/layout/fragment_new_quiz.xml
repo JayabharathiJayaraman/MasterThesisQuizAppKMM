@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.newQuiz.NewQuizFragment"
+    >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background='@color/colorPurple'>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="130dp">
+
+                <LinearLayout
+                    android:id="@+id/quiz1_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="2dp"
+                    android:background='@drawable/layout_bg'
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="70dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/shapes_logo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:gravity="center|left"
+                        android:orientation="vertical"
+                        tools:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/open_sans_regular"
+                            android:text="ShapesQuiz"
+                            android:textColor="@color/colorPurple"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quiz2_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background='@drawable/layout_bg'
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="70dp"
+                        android:src="@drawable/color_logo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical"
+                        tools:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/open_sans_regular"
+                            android:text="Color Quiz"
+                            android:textColor="@color/colorPurple"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/quiz3_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="30dp"
+                    android:background='@drawable/layout_bg'
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="70dp"
+                        android:src="@drawable/picture_logo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:layout_marginLeft="30dp"
+                        android:gravity="center|left"
+                        android:orientation="vertical"
+                        tools:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/open_sans_regular"
+                            android:text="Counting"
+                            android:textColor="@color/colorPurple"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+</FrameLayout>
